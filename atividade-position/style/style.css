@@ -67,11 +67,12 @@ section.como-ajudamos {
     margin-bottom: 0;
     background-color: #282C31;
     color: white;
-    position: relative;
+  
 }
 section .como-ajudamos-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
+    position: relative;
 }
 
 section .ajuda-box {
@@ -105,8 +106,8 @@ section .conhecimento-profundo {
 
     box-shadow: 10px 2px 45px rgba(0, 0, 0, .4);
     position: absolute;
-    bottom: 65px;
-    right: 65px;
+    top: -65px;
+    right: -120px;
 }
 
 section .conhecimento-profundo h3 {
