@@ -1,9 +1,8 @@
-
-
-
-
-
-
+@font-face {
+    font-family: "Matheus Dias";
+    /* Apenas um apelido*/
+    src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
 
 * {
     margin: 0;
@@ -11,20 +10,63 @@
     box-sizing: border-box;
 }
 
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 100%;
+}
 
 body {
     background-color: #080324;
 }
 
+
 /* ************ HEADER ************* */
 
 header {
     background-color: #F9003D;
-
+    height: 60px;
 }
-header nav a{ 
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    padding: 15px 25px;
+    /*Border-box vai estudar */
+    border-radius: 5px;
+    /* Arredonda a tag */
+    font-family: "Matheus Dias";
     color: white;
-    text-decoration: none ;
-
+    text-decoration: none;
+    letter-spacing: 2px;
+    /* espaço entre as letras */
+    text-transform: uppercase;
+    /* Formato maiusculo */
 }
 
+header nav a:hover {
+    background-color: white;
+    color: #F9003D;
+}
+
+main .banner {
+    height: 740px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-image: url(../assets/imags/imagem-fundo-banner\ 1.png);
+    background-position: bottom
+}
