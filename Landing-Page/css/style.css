@@ -14,7 +14,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid white; */
     height: 100%;
 }
 
@@ -61,12 +61,78 @@ header nav a:hover {
     color: #F9003D;
 }
 
+
+/* ***** Main ***** */
+
 main .banner {
     height: 740px;
     width: 100%;
     color: white;
-    background-color: black;
-    background-size: cover;
     background-image: url(../assets/imags/imagem-fundo-banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: bottom
+}
+
+main .banner-flex {
+    display: flex;
+    align-items: center;
+}
+
+main h1 {
+    font-family: "Matheus Dias";
+    font-size: 96px;
+    text-transform: uppercase;
+    color: white;
+    /* border: 1px solid yellowgreen; */
+    border-bottom: 1px solid #FFAF00;
+    padding-bottom: 10px;
+}
+
+main .banner #bannerinfo {
+    border: 2px solid paleturquoise;
+}
+
+main #bannerinfo p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #F9003D;
+    font-size: 53px;
+    text-transform: uppercase;
+    height: 68px;
+    width: 545px;
+    /* border: 1px solid violet; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#mouse {
+    margin-left: 15px;
+}
+
+
+/* section */
+
+div .imagem-div {
+    width: 490px;
+    background-color: green;
+}
+
+.imagem-div h2 {
+    color: #F9003D;
+    font-family: "Matheus Dias";
+    font-size: 64px;
+}
+
+#teste {
+    border: 1px solid red;
+    width: 500px;
+    color: white;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid green;
 }
