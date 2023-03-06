@@ -4,6 +4,10 @@
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Open Sans";
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +24,9 @@
 
 body {
     background-color: #080324;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
 
 
@@ -89,9 +96,6 @@ main h1 {
     padding-bottom: 10px;
 }
 
-main .banner #bannerinfo {
-    border: 2px solid paleturquoise;
-}
 
 main #bannerinfo p {
     font-family: 'Courier New', Courier, monospace;
@@ -111,28 +115,69 @@ main #bannerinfo p {
 }
 
 
-/* section */
+                           /******************* section ********************/
 
-div .imagem-div {
-    width: 490px;
-    background-color: green;
+main .sobre {
+    padding-top: 40px;
 }
 
-.imagem-div h2 {
-    color: #F9003D;
+main .sobre h2{
+    margin-bottom: 40px;
     font-family: "Matheus Dias";
     font-size: 64px;
+    color: #F9003D;
 }
 
-#teste {
-    border: 1px solid red;
-    width: 500px;
+main .sobre .sobrelinha {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid #F9003D */
+}
+
+main .sobre .sobrelinha img {
+    width: 490px;
+}
+
+main .sobre .sobrelinha .participantes {
+    width: 590px;
+    /* border: 2px solid yellow; */
+}
+
+main .sobre .sobrelinha .participantes h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
     color: white;
 }
 
-article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid green;
+main .sobre .sobrelinha .participantes h4 {
+    margin-bottom: 20px;
+    font-family: "Matheus Dias";
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+main .sobre .sobrelinha .participantes p {
+    font-family: "Open Sans"; 
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+/********** footer *********/
+
+footer .endereco{
+    color: white;
+}
+
+footer .endereco h1{
+    font-family: "Matheus Dias";
+    font-size: 64px;
+    color: #FFAF00;
+}
+
+footer .endereco p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #A259F7
 }
