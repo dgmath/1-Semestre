@@ -14,9 +14,16 @@
     box-sizing: border-box;
 }
 
+/* desktop first */ 
+
+header #menu-hamburger {
+    display: none;
+}
+
+
 .layout-grid {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
     /* border: 1px solid white; */
     height: 100%;
@@ -64,8 +71,8 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: white;
-    color: #F9003D;
+    text-shadow: 3px 3px 7px black;
+
 }
 
 
@@ -115,10 +122,11 @@ main #bannerinfo p {
 }
 
 
-                           /******************* section ********************/
+           /******************* main ********************/
 
 main .sobre {
-    padding-top: 40px;
+    padding-top: 50px;
+    height: 800px;
 }
 
 main .sobre h2{
@@ -165,19 +173,138 @@ main .sobre .sobrelinha .participantes p {
     color: white;
 }
 
-/********** footer *********/
+/********** quase footer *********/
 
-footer .endereco{
-    color: white;
-}
 
-footer .endereco h1{
+section .mapa h1{
     font-family: "Matheus Dias";
     font-size: 64px;
     color: #FFAF00;
 }
 
-footer .endereco p{
+section .mapa p{
     font-family: 'Courier New', Courier, monospace;
     color: #A259F7
 }
+
+section .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 598px;
+
+}
+section .quase-footer {
+    background-image: url(../assets/imags/imagem-fundo-ranking\ 2.png);;
+}
+
+
+
+
+
+section .dados{
+    background-image: url(../assets/imags/Fundo3.png);
+}
+
+section .display-flex {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+}
+
+section .local h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section .local p {
+    font-weight: bold;
+    color: #A259F7;
+    font-size: 28px;
+    border: 1px solid #A259F7;
+}
+
+section .duracao h5 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section .duracao p {
+    font-weight: bold;
+    color: #A259F7;
+    font-size: 28px;
+    border: 1px solid #A259F7;
+}
+
+section .desafios h6 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section .desafios p {
+    font-weight: bold;
+    color: #A259F7;
+    font-size: 28px;
+    border: 1px solid #A259F7;
+}
+
+
+/* footer */
+
+footer {
+    height: 82px;
+    background-color: #F9003D;
+}
+footer .Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* smartphone */
+
+@media screen and (max-width: 767px) {
+    main,footer{
+        display: none;
+    }
+    /* header nav { 
+        display: none;
+    }*/
+    
+    header #menu-hamburger {
+        display: block;
+    }
+
+header nav {
+    position: fixed;
+    top: 61px;
+    left: 0;
+    width: 80vw;
+    max-width: 360px;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9003D;
+    border: 1px solid #080324 ;
+}
+
+header nav a {
+    width: 150px;
+    justify-content: space-around;
+    border-left: 2px dashed #FFAF00 ;
+    border-radius: 0;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+}
+
+
+
+
