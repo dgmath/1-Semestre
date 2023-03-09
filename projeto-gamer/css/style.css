@@ -1,0 +1,19 @@
+/* imports de fonts */
+
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+header{
+    background-color: #1B1426;
+}
+
+/* Mobile first */

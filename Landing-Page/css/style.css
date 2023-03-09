@@ -183,8 +183,10 @@ section .mapa h1{
 }
 
 section .mapa p{
+    border: 1px solid #A259F7;
     font-family: 'Courier New', Courier, monospace;
-    color: #A259F7
+    color: #A259F7;
+    background-color: #080324;
 }
 
 section .mapa {
@@ -197,9 +199,6 @@ section .mapa {
 section .quase-footer {
     background-image: url(../assets/imags/imagem-fundo-ranking\ 2.png);;
 }
-
-
-
 
 
 section .dados{
@@ -220,6 +219,7 @@ section .local h4 {
 }
 
 section .local p {
+    padding: 20px;
     font-weight: bold;
     color: #A259F7;
     font-size: 28px;
@@ -232,6 +232,7 @@ section .duracao h5 {
 }
 
 section .duracao p {
+    padding: 20px;
     font-weight: bold;
     color: #A259F7;
     font-size: 28px;
@@ -244,6 +245,7 @@ section .desafios h6 {
 }
 
 section .desafios p {
+    padding: 20px;
     font-weight: bold;
     color: #A259F7;
     font-size: 28px;
