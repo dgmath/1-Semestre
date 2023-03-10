@@ -7,13 +7,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* classes genericas */
+.layout-grid{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid salmon;
+
+}
 
 body{
     color: white;
 }
 
+/* Mobile first */
+
+/* HEADER */
+
 header{
+    height: 60px;
     background-color: #1B1426;
 }
 
-/* Mobile first */
+header .header-top{
+    display: none;
+}
+header nav{
+    display: none;
+}
+header .menu-usuarios{
+    display: none;
+}
+
+header .alinhamento-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 86px;
+}
+
+
+header .header-bottom{
+    height: 60px;
+}
+
+header nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+}
