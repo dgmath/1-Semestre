@@ -1,5 +1,8 @@
 /* imports de fonts */
-
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
 
 /* reset css */
 * {
@@ -12,7 +15,7 @@
     width: 90%;
     height: 100%;
     margin: 0 auto;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
 
 }
 
@@ -59,9 +62,44 @@ header nav {
     top: 60px;
     left: 0;
     width: 80vw;
-    height: 100vh;
-    background-color: grey;
-
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding-bottom: 20px; */
+    justify-self: flex-end
+}
+
+header .header-bottom nav > a{
+    padding: 25px 0;
+    font-size: 15px;
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom: solid 2px #F9AA01;
+}
+header nav a:first-of-type{
+    color: #F9AA01;
+}
+header nav a:last-of-type{
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    /* margin-top: 40px; */
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
 }
