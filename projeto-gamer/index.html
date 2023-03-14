@@ -43,11 +43,12 @@
         </div>
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
-                <img src="./assets/icons/hamburger.svg" alt=" Abre e fecha o menu principal ">
+                <!-- visivel apenas no mobile !-->
+                <img onclick="mostrarMenu()" src="./assets/icons/hamburger.svg" alt=" Abre e fecha o menu principal ">
                 <img class="logo" src="./assets/images/logotipo-gamer.svg"
                     alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
 
-                <nav class="menu">
+                <nav class="menu" id="menu"> 
                     <a href="" id="laranja">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -58,13 +59,15 @@
                         <p>(11) 0900-1010</p>
                     </a>
 
+
+                    
                     <a class="mail">
                         <img src="./assets/icons/icone_email.svg" alt="icone de email de contato">
                         <p>contato@gamer.com.br</p>
                     </a>
 
                     <div class="midias-sociais">
-                        <a href="">
+                        <a href="https://pt-br.facebook.com/">
                             <img src="./assets/icons/facebook.svg" alt="Imagem link do facebook da impresa">
                         </a>
                         <a href="">
@@ -77,14 +80,10 @@
                     </div>
                 </nav>
 
-
-
-
-
                 <!-- menu pointers -->
-                <img src="./assets/icons/pointers.svg" alt=" 3 pontinhos, abre e fecha o menu usuarios ">
+                <img onclick="mostrarUsuario()" src="./assets/icons/pointers.svg" alt=" 3 pontinhos, abre e fecha o menu usuarios ">
 
-                <div class="menu-usuarios">
+                <div class="menu-usuarios" id="usuario">
                     <a href="">
                         <img src="./assets/icons/contato.svg" alt=" Icone de perfil ">
                     </a>
@@ -100,7 +99,25 @@
         </div>
     </header>
 
+    <main>
 
+        <section class="banner-inicio">
+            <img src="./assets/images/valorant-pergunte-3-scaled 1.png" alt="">
+        </section>
+    </main>
+
+
+    <script>
+        function mostrarMenu() {
+        document.getElementById("menu").classList.toggle("mostrar-menu")  
+        }
+    </script>
+
+    <script>
+        function mostrarUsuario() {
+        document.getElementById("usuario").classList.toggle("mostrar-usuario")
+        }
+    </script>
 
 
 
