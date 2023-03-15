@@ -44,11 +44,11 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- visivel apenas no mobile !-->
-                <img onclick="mostrarMenu()" src="./assets/icons/hamburger.svg" alt=" Abre e fecha o menu principal ">
+                <img id="menu-hg" onclick="mostrarMenu()" src="./assets/icons/hamburger.svg" alt=" Abre e fecha o menu principal ">
                 <img class="logo" src="./assets/images/logotipo-gamer.svg"
                     alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
 
-                <nav class="menu" id="menu"> 
+                <nav class="menu" id="menu">
                     <a href="" id="laranja">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -60,7 +60,7 @@
                     </a>
 
 
-                    
+
                     <a class="mail">
                         <img src="./assets/icons/icone_email.svg" alt="icone de email de contato">
                         <p>contato@gamer.com.br</p>
@@ -81,7 +81,8 @@
                 </nav>
 
                 <!-- menu pointers -->
-                <img onclick="mostrarUsuario()" src="./assets/icons/pointers.svg" alt=" 3 pontinhos, abre e fecha o menu usuarios ">
+                <img onclick="mostrarUsuario()" src="./assets/icons/pointers.svg"
+                    alt=" 3 pontinhos, abre e fecha o menu usuarios ">
 
                 <div class="menu-usuarios" id="usuario">
                     <a href="">
@@ -101,21 +102,86 @@
 
     <main>
 
-        <section class="banner-inicio">
-            <img src="./assets/images/valorant-pergunte-3-scaled 1.png" alt="">
+        <article class="banner-inicio">
+
+            <div class="banner-info">
+                <h2>
+                    Liga gamers
+                </h2>
+                <a class="link-main" href="">
+                    Sobre
+                </a>
+            </div>
+
+
+        </article>
+
+        <section class="jogos">
+
+            <div class="jogos-populares">
+                <img src="./assets/images/Card-FIFA (1).png" alt="">
+
+                <img src="./assets/images/Card-CS GO.png" alt="">
+            </div>
+
         </section>
+
+        <section class="premium">
+
+            <h1>entre para o time progamer</h1>
+
+            <img src="./assets/images/kiljoy.png" alt="">
+
+            <img src="./assets/images/lp-gamer-home_0000s_0000s_0002_lol.png" alt="">
+
+            <div class="controle">
+                <img src="./assets/icons/controle.svg" alt="">
+                <h4>20 jogos diferentes</h4>
+                <p>São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores técnicas.</p>
+            </div>
+
+            <div class="gamer">
+
+                <img src="./assets/icons/gamer.svg" alt="">
+
+                <h5>50 professores</h5>
+
+                <p>Temos 53 Proplayers no nosso time para ensinar todas as es- tratégias, você vai aprender do básico ao avançado.
+                    Tempo de treinamento, des- canso, equipamentos.</p>
+            </div>
+
+        </section>
+
+        <section class="noticias">
+
+            <h3>Noticias</h3>
+
+            <div class="card-estadio">
+
+                <img src="./assets/images/VCT-eSports 1.png" alt="">
+
+                <h3>Titulo da Notícia</h3>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+            </div>
+
+        </section>
+
+
+
+
     </main>
 
 
     <script>
         function mostrarMenu() {
-        document.getElementById("menu").classList.toggle("mostrar-menu")  
+            document.getElementById("menu").classList.toggle("mostrar-menu")
         }
     </script>
 
     <script>
         function mostrarUsuario() {
-        document.getElementById("usuario").classList.toggle("mostrar-usuario")
+            document.getElementById("usuario").classList.toggle("mostrar-usuario")
         }
     </script>
 

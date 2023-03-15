@@ -4,6 +4,16 @@
     src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+@font-face {
+    font-family: titi;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: titi-2;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
 /* reset css */
 * {
     margin: 0;
@@ -31,11 +41,13 @@ body{
     color: white;
 }
 
+
 /* Mobile first */
 
 /* HEADER */
 
 header{
+    top: 0;
     position: fixed;
     width: 100vw;
     height: 60vh;
@@ -129,7 +141,98 @@ header .header-bottom nav .midias-sociais{
     width: 100%;
 }
 
-main .banner-inicio{
+main {
+    margin-top: 60px;
+ } 
+
+main .banner-inicio {
     background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1.png);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 606px;
+    /* justify-content: space-around; 
+    align-items: center;
+    flex-direction: column;*/
+    /* padding-top: 60px; */
     
+}
+
+main .banner-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    /* color: #F9AA01; */
+}
+
+main .link-main{
+    border-radius: 8px;
+    color: #1B1426;
+    font-family: "titi-2";
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #F9AA01;
+    height: 40px;
+    width: 171px;    
+    margin-bottom: 75px;    
+    text-align: center;
+}
+
+main h2{
+    font-size: 40px;
+    font-family: "titi";
+    color: white;
+    text-shadow: 0 0 7px #fd4255;
+
+}
+
+main .jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 590px;
+    background-color: #1B1426;
+
+}
+
+main .jogos-populares{
+    height: 590px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .premium{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #F9AA01;
+    height: 1565px;
+}
+
+main .noticias{
+    height: 3675px;
+    background-image: url(../assets/images/backgrund_notícias.png);
+}
+
+main .card-estadio{
+    width: 335px;
+    height: 387px;
+}
+
+
+/* tablets */
+@media screen and (min-width: 768px){}
+
+/* desktop */
+@media screen and (min-width: 1200px) {}
+
+/* esconde os elementos desnecessarios */
+header .header-bottom #menu-hg {
+    display: none;
 }
