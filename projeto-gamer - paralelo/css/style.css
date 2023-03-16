@@ -1,4 +1,4 @@
-/* imports de fonts */
+             /* imports de fonts */
 @font-face {
     font-family: inter;
     src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
@@ -225,7 +225,6 @@ main .card-estadio{
     height: 387px;
 }
 
-
 /* tablets */
 @media screen and (min-width: 768px){}
 
@@ -234,86 +233,148 @@ main .card-estadio{
 
 /* esconde os elementos desnecessarios */
 
-header {
-    position: static;
-    height: 140px;
-}
-header .header-bottom img.logo {
-    width: 200px;
-}
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+        /* border: 2px solid yellow; */
+    }
 
-header .header-top{
-    display: block;
-    border-bottom: 2px solid #F9AA01;
-}
+    /* HEADER  */
+    header {
+        position: static;
+        height: 140px;
+    }
 
-header .menu-hamburger,
-header .menu-pontinhos,
-header .header-bottom nav .phone,
-header .header-bottom nav .email,
-header .header-bottom nav .midias-sociais {
-    display: none;
-}
-
-
-.layout-grid {
-    width: 100%;
-    max-width: 1200px;
-    /* border: 3px dotted yellowgreen; */
-}
-
-header .header-top .contatos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 450px;
+    header .header-top{
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border-bottom: 1px solid #F9AA01; */
+    }
     
-}
+    /* header .borda{ 
+        height: 40px;
+        border-bottom: 1px solid #F9AA01;
+    }*/
 
-header .header-top .contatos > div {
-    width: 200px;
+    header .header-top .contatos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+        
+    }
+
+    header .header-top .contatos > div {
+        width: 200px;
+        display: flex;
+        gap: 10px;
+    }
+
+    header .header-top .phone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 150px;
+    }
+
+    header .header-top .mail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 202px;
+    }
+    
+    header .header-top .midias-sociais{
+        width: 180px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .menu-hamburger,
+    header .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+    header .header-bottom{
+        height: 90px;
+    }
+
+    header .header-bottom img.logo {
+        width: 200px;
+    }
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: rgb(245, 112, 112); */
+        padding-bottom: 0px;
+    }
+
+    header .header-bottom nav a {
+        border-bottom: none;
+        font-size: 14px;
+        color: white !important;
+    }
+
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        flex-direction: row;
+        width: 180px;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+
+    }
+
+    /* MAIN */
+    main {
+        margin-top: 0;
+    }
+
+    main .banner-inicio{
+        background-image: url(../assets/images/Banner_background_1.png);
+    }
+
+    main h2{
+        font-size: 80px;
+        font-family: "titi";
+        color: white;
+        text-shadow: 0 0 7px #fd4255;
+    
+    }
+main .jogos-populares{
+    height: 500px;
     display: flex;
-    gap: 10px;
-}
-
-header .header-bottom .menu-usuarios {
-    position: static;
-    flex-direction: row;
-    width: 140px;
-    height: auto;
-    background-color: transparent;
-    background-image: none;
-}
-
-header .header-bottom nav {
-    position: static;
-    width: 440px;
-    height: 50px;
-    flex-direction: row;
     align-items: center;
-    background-color: transparent;
-    justify-content: space-between;
-    background-image: none;
-    padding-bottom: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-size: cover;
 }
 
-header .header-bottom nav a{
-    border-bottom: none;
-}
-
-
-
-
-
-
-main {
-    margin-top: 0;
+main .jogos-populares img{
+    width: 565px;
+    height: 313px;
 }
 
 
-main .banner-inicio{
-    background-image: url(../assets/images/Banner_background_1.png);
-
+main .jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #1B1426;
 }
 
 }
