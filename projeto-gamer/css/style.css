@@ -199,9 +199,8 @@ main .jogos{
 }
 
 main .jogos-populares{
-    height: 590px;
+    height: 100%;
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -213,6 +212,14 @@ main .premium{
     flex-direction: column;
     background-color: #F9AA01;
     height: 1565px;
+}
+
+main .premium h1{
+    font-size: 18px;
+    font-family: "titi";
+    color: #1B1426;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 main .noticias{
@@ -235,17 +242,27 @@ main .card-estadio{
 /* esconde os elementos desnecessarios */
 
 header {
+    width: 100%;
     position: static;
     height: 140px;
 }
+
 header .header-bottom img.logo {
     width: 200px;
 }
 
 header .header-top{
     display: block;
+    height: 50px;
     border-bottom: 2px solid #F9AA01;
 }
+
+    header .header-top .midias-sociais{
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+
+    }
 
 header .menu-hamburger,
 header .menu-pontinhos,
@@ -270,10 +287,20 @@ header .header-top .contatos{
     
 }
 
-header .header-top .contatos > div {
+header .header-top .contatos > a {
     width: 200px;
     display: flex;
     gap: 10px;
+    align-items: center;
+    font-family: "inter";
+}
+
+
+
+
+
+header .header-bottom{
+    height: 90px;
 }
 
 header .header-bottom .menu-usuarios {
@@ -281,6 +308,7 @@ header .header-bottom .menu-usuarios {
     flex-direction: row;
     width: 140px;
     height: auto;
+    justify-content: space-between;
     background-color: transparent;
     background-image: none;
 }
@@ -312,8 +340,34 @@ main {
 
 
 main .banner-inicio{
-    background-image: url(../assets/images/Banner_background_1.png);
+    background-image: url(../assets/images/fundo.png);
+    height: 722px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
+main h2{
+    font-size: 80px;
+}
+
+main .jogos img{
+    width: 556px;
+    height: 313px;
+}
+
+main .jogos .jogos-populares{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+
+main .jogos{
+    height: 500px;
+}
+
+
 
 }
