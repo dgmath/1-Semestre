@@ -1,0 +1,137 @@
+    /* imports de fonts */
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: titi;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: titi-2;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* classes genericas */
+.layout-grid{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid salmon; */
+
+}
+
+.mostrar-menu{
+    left: 0 !important;
+}
+
+.mostrar-usuario{
+    right: 0 !important;
+}
+
+body{
+    color: white;
+}
+
+
+/* Mobile first */
+
+/* HEADER */
+
+header{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 60vh;
+    height: 60px;
+    z-index: 100;
+    background-color: #1B1426;
+}
+
+header .header-top{
+    display: none;
+}
+header nav{
+    display: none;
+}
+header .menu-usuarios{
+    display: flex;
+    position: fixed;
+    width: 15vw;
+    height: 20vh;
+    top: 60px ;
+    right: -66px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    backdrop-filter: blur(45px);
+    transition: 0.5s;
+}
+
+header .alinhamento-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 86px;
+}
+
+
+header .header-bottom{
+    height: 60px;
+}
+
+header nav {
+    z-index: 101;
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    width: 80vw;
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding-bottom: 20px; */
+    justify-self: flex-end;
+    transition: 0.5s;
+}
+
+header .header-bottom nav > a{
+    padding: 25px 0;
+    font-size: 15px;
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom: solid 2px #F9AA01;
+}
+header nav a:first-of-type{
+    color: #F9AA01;
+}
+header nav a:last-of-type{
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    /* margin-top: 40px; */
+    }
