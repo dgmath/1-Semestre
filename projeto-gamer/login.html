@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="./css/Login.css">
 </head>
+
 <body>
 
     <!-- header -->
@@ -44,7 +46,8 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- visivel apenas no mobile !-->
-                <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/hamburger.svg" alt=" Abre e fecha o menu principal ">
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/hamburger.svg"
+                    alt=" Abre e fecha o menu principal ">
                 <img class="logo" src="./assets/images/logotipo-gamer.svg"
                     alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
 
@@ -99,8 +102,22 @@
             </div>
         </div>
     </header>
-
     <!-- main -->
+    <main>
+        <form class="Login" action="">
+            <h1>Login</h1>
+            <div class="user">
+                <img src="./assets/icons/Vector.svg" alt="">
+                <input type="email" placeholder="Digite seu e-mail:">
+                <div class="senha">
+                    <img src="./assets/icons/Vectorchave.svg" alt="">
+                    <input type="password" placeholder="Digite sua senha:">
+                </div>
+                <button class="entrar">Logar</button>
+
+
+        </form>
+    </main>
     <!-- footer -->
     <script>
         function mostrarMenu() {

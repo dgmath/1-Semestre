@@ -14,6 +14,11 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: titi-re;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
 /* reset css */
 * {
     margin: 0;
@@ -135,3 +140,150 @@ header .header-bottom nav .midias-sociais{
     justify-content: center;
     /* margin-top: 40px; */
     }
+
+    main{
+        margin-top: 60px;
+        height: 687px;
+
+        background-image: url(../assets/images/Banner_Login.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    main .Login{
+        display: flex;
+        width: 335px;
+        height: 462px;
+        color: white;
+        backdrop-filter: blur(10px);
+    }
+
+    main .Login input{
+        width: 273px;
+        height: 40px;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: "titi-re" ;
+        font-size: 16px;
+        border: none;
+   
+
+    }
+
+    main .Login ::placeholder{
+        color: white;
+    }
+
+    main .entrar{
+        width: 273px;
+        height: 40px;
+        background-color: #F9AA01;
+        font-family: "titi-2";
+        font-size: 24px;
+        color: #1B1426;
+        border-radius: 5px;
+        border: none;
+    }
+ 
+
+    /* tablets */
+@media screen and (min-width: 768px){}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+
+/* esconde os elementos desnecessarios */
+
+header {
+    width: 100%;
+    position: static;
+    height: 140px;
+}
+
+header .header-bottom img.logo {
+    width: 200px;
+}
+
+header .header-top{
+    display: block;
+    height: 50px;
+    border-bottom: 2px solid #F9AA01;
+}
+
+    header .header-top .midias-sociais{
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+header .menu-hamburger,
+header .menu-pontinhos,
+header .header-bottom nav .phone,
+header .header-bottom nav .email,
+header .header-bottom nav .midias-sociais {
+    display: none;
+}
+
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    /* border: 3px dotted yellowgreen; */
+}
+
+header .header-top .contatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    
+}
+
+header .header-top .contatos > a {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: "inter";
+}
+
+
+
+
+
+header .header-bottom{
+    height: 90px;
+}
+
+header .header-bottom .menu-usuarios {
+    position: static;
+    flex-direction: row;
+    width: 140px;
+    height: auto;
+    justify-content: space-between;
+    background-color: transparent;
+    background-image: none;
+}
+
+header .header-bottom nav {
+    position: static;
+    width: 440px;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    background-image: none;
+    padding-bottom: 0px;
+}
+
+header .header-bottom nav a{
+    border-bottom: none;
+}
+
+
+}
