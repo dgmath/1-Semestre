@@ -1,183 +1,244 @@
     /* imports de fonts */
-@font-face {
-    font-family: inter;
-    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
-}
-
-@font-face {
-    font-family: titi;
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
-}
-
-@font-face {
-    font-family: titi-2;
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
-}
-
-@font-face {
-    font-family: titi-re;
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
-}
-
-/* reset css */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* classes genericas */
-.layout-grid{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    /* border: 1px solid salmon; */
-
-}
-
-.mostrar-menu{
-    left: 0 !important;
-}
-
-.mostrar-usuario{
-    right: 0 !important;
-}
-
-body{
-    color: white;
-}
-
-
-/* Mobile first */
-
-/* HEADER */
-
-header{
-    top: 0;
-    position: fixed;
-    width: 100vw;
-    height: 60vh;
-    height: 60px;
-    z-index: 100;
-    background-color: #1B1426;
-}
-
-header .header-top{
-    display: none;
-}
-header nav{
-    display: none;
-}
-header .menu-usuarios{
-    display: flex;
-    position: fixed;
-    width: 15vw;
-    height: 20vh;
-    top: 60px ;
-    right: -66px;
-    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    backdrop-filter: blur(45px);
-    transition: 0.5s;
-}
-
-header .alinhamento-between-center{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo{
-    width: 86px;
-}
-
-
-header .header-bottom{
-    height: 60px;
-}
-
-header nav {
-    z-index: 101;
-    position: fixed;
-    top: 60px;
-    left: -80vw;
-    width: 80vw;
-    height: calc(100vh - 60px);
-    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
-    backdrop-filter: blur(45px);
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    /* padding-bottom: 20px; */
-    justify-self: flex-end;
-    transition: 0.5s;
-}
-
-header .header-bottom nav > a{
-    padding: 25px 0;
-    font-size: 15px;
-    font-family: inter;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    color: white;
-    text-decoration: none;
-    border-bottom: solid 2px #F9AA01;
-}
-header nav a:first-of-type{
-    color: #F9AA01;
-}
-header nav a:last-of-type{
-    border-bottom: none;
-}
-
-header .header-bottom nav .midias-sociais{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    justify-content: center;
-    /* margin-top: 40px; */
+    @font-face {
+        font-family: inter;
+        src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
     }
 
-    main{
+    @font-face {
+        font-family: titi;
+        src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+    }
+
+    @font-face {
+        font-family: titi-2;
+        src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+    }
+
+    @font-face {
+        font-family: titi-re;
+        src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+    }
+
+    /* reset css */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* classes genericas */
+    .layout-grid {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        /*: 1px solid solid salmon; */
+
+    }
+
+    .mostrar-menu {
+        left: 0 !important;
+    }
+
+    .mostrar-usuario {
+        right: 0 !important;
+    }
+
+    body {
+        color: white;
+    }
+
+
+    /* Mobile first */
+
+    /* HEADER */
+
+    header {
+        top: 0;
+        position: fixed;
+        width: 100vw;
+        height: 60vh;
+        height: 60px;
+        z-index: 100;
+        background-color: #1B1426;
+    }
+
+    header .header-top {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .menu-usuarios {
+        display: flex;
+        position: fixed;
+        width: 15vw;
+        height: 20vh;
+        top: 60px;
+        right: -66px;
+        background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        backdrop-filter: blur(45px);
+        transition: 0.5s;
+    }
+
+    header .alinhamento-between-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .logo {
+        width: 86px;
+    }
+
+
+    header .header-bottom {
+        height: 60px;
+    }
+
+    header nav {
+        z-index: 101;
+        position: fixed;
+        top: 60px;
+        left: -80vw;
+        width: 80vw;
+        height: calc(100vh - 60px);
+        background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+        backdrop-filter: blur(45px);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* padding-bottom: 20px; */
+        justify-self: flex-end;
+        transition: 0.5s;
+    }
+
+    header .header-bottom nav>a {
+        padding: 25px 0;
+        font-size: 15px;
+        font-family: inter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        text-decoration: none;
+        border-bottom: solid 2px #F9AA01;
+    }
+
+    header nav a:first-of-type {
+        color: #F9AA01;
+    }
+
+    header nav a:last-of-type {
+        border-bottom: none;
+    }
+
+    header .header-bottom nav .midias-sociais {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        justify-content: center;
+        /* margin-top: 40px; */
+    }
+
+    main {
+        display: flex;
+        align-items: center;
         margin-top: 60px;
         height: 687px;
-
+        backdrop-filter: blur(10px);
         background-image: url(../assets/images/Banner_Login.png);
         background-size: contain;
         background-repeat: no-repeat;
-        
+        color: white;
+
+
     }
 
-    main .Login{
+    main h1 {
+        font-family: "titi";
+        font-size: 28px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main hr {
+        width: 90px;
+        border: 2px solid #F9AA01;
+    }
+
+    main .titulo {
+
+        width: 90px;
+
+    }
+
+    main form {
+        /* efeito da borda e do fundo glass */
+        border: 2px solid transparent;
+        border-radius: 8px;
+        background:
+            /* fundo */
+            linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .039)) padding-box,
+            /* fundo borda */
+            linear-gradient(90deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .1)) border-box;
+        backdrop-filter: blur(4px);
+    }
+
+    main .Login {
         display: flex;
         width: 335px;
         height: 462px;
         color: white;
         backdrop-filter: blur(10px);
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6));
+
+
+        border: 2px solid transparent;
+
+        /* background: linear-gradient(to right bottom , rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) content-box, */
+        /* linear-gradient(to right bottom , rgba(239, 239, 239, 0.6),rgba(239, 239, 239, 0.10)) border-box; */
+
+
+        /* border-image-slice: 1; */
+
     }
 
-    main .Login input{
+    /* form::before{ 
+        content: "";
+        background-image: linear-gradient(to bottom left, rgba(27, 20, 38, 0.7),rgba(255, 20, 38, 0.4));;
+        border-radius: 5px;
+    }
+*/
+    main .Login input {
         width: 273px;
         height: 40px;
         /* border: 2px solid black; */
         border-radius: 5px;
         background-color: transparent;
         color: white;
-        font-family: "titi-re" ;
+        font-family: "titi-re";
         font-size: 16px;
         border: none;
-   
-
+        letter-spacing: 1px solid;
+        outline: none;
     }
 
-    main .Login ::placeholder{
+    main .Login ::placeholder {
         color: white;
     }
 
-    main .entrar{
+    main .entrar {
         width: 273px;
         height: 40px;
         background-color: #F9AA01;
@@ -187,103 +248,162 @@ header .header-bottom nav .midias-sociais{
         border-radius: 5px;
         border: none;
     }
- 
 
-    /* tablets */
-@media screen and (min-width: 768px){}
-
-/* desktop */
-@media screen and (min-width: 1200px) {
-
-/* esconde os elementos desnecessarios */
-
-header {
-    width: 100%;
-    position: static;
-    height: 140px;
-}
-
-header .header-bottom img.logo {
-    width: 200px;
-}
-
-header .header-top{
-    display: block;
-    height: 50px;
-    border-bottom: 2px solid #F9AA01;
-}
-
-    header .header-top .midias-sociais{
-        width: 140px;
+    main .user {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    main .senha {
+        padding-left: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 273px;
+        height: 40px;
+        background-image: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.10));
+
+        letter-spacing: 2px;
+        background-color: transparent;
+        /* padding: 2px; */
+
+        /* efeito da borda e do fundo glass */
+        border: 2px solid transparent;
+        border-radius: 8px;
+        background:
+            /* fundo */
+            linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+            /* fundo borda */
+            linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+        backdrop-filter: blur(4px);
+
+
+
+
 
     }
 
-header .menu-hamburger,
-header .menu-pontinhos,
-header .header-bottom nav .phone,
-header .header-bottom nav .email,
-header .header-bottom nav .midias-sociais {
-    display: none;
-}
+    main .pessoa {
+        padding-left: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        width: 273px;
+        height: 40px;
+        background-image: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.10));
+        /* efeito da borda e do fundo glass */
+        border: 2px solid transparent;
+        border-radius: 8px;
+        background:
+            /* fundo */
+            linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+            /* fundo borda */
+            linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+        backdrop-filter: blur(4px);
 
 
-.layout-grid {
-    width: 100%;
-    max-width: 1200px;
-    /* border: 3px dotted yellowgreen; */
-}
+    }
 
-header .header-top .contatos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 450px;
-    
-}
+    /* tablets */
+    @media screen and (min-width: 768px) {}
 
-header .header-top .contatos > a {
-    width: 200px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    font-family: "inter";
-}
+    /* desktop */
+    @media screen and (min-width: 1200px) {
 
+        /* esconde os elementos desnecessarios */
 
+        header {
+            width: 100%;
+            position: static;
+            height: 140px;
+        }
 
+        header .header-bottom img.logo {
+            width: 200px;
+        }
 
+        header .header-top {
+            display: block;
+            height: 50px;
+            border-bottom: 2px solid #F9AA01;
+        }
 
-header .header-bottom{
-    height: 90px;
-}
+        header .header-top .midias-sociais {
+            width: 140px;
+            display: flex;
+            justify-content: space-between;
 
-header .header-bottom .menu-usuarios {
-    position: static;
-    flex-direction: row;
-    width: 140px;
-    height: auto;
-    justify-content: space-between;
-    background-color: transparent;
-    background-image: none;
-}
+        }
 
-header .header-bottom nav {
-    position: static;
-    width: 440px;
-    height: 50px;
-    flex-direction: row;
-    align-items: center;
-    background-color: transparent;
-    justify-content: space-between;
-    background-image: none;
-    padding-bottom: 0px;
-}
-
-header .header-bottom nav a{
-    border-bottom: none;
-}
+        header .menu-hamburger,
+        header .menu-pontinhos,
+        header .header-bottom nav .phone,
+        header .header-bottom nav .email,
+        header .header-bottom nav .midias-sociais {
+            display: none;
+        }
 
 
-}
+        .layout-grid {
+            width: 100%;
+            max-width: 1200px;
+            /* border: 3px dotted yellowgreen; */
+        }
+
+        header .header-top .contatos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 450px;
+
+        }
+
+        header .header-top .contatos>a {
+            width: 200px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-family: "inter";
+        }
+
+
+
+
+
+        header .header-bottom {
+            height: 90px;
+        }
+
+        header .header-bottom .menu-usuarios {
+            position: static;
+            flex-direction: row;
+            width: 140px;
+            height: auto;
+            justify-content: space-between;
+            background-color: transparent;
+            background-image: none;
+        }
+
+        header .header-bottom nav {
+            position: static;
+            width: 440px;
+            height: 50px;
+            flex-direction: row;
+            align-items: center;
+            background-color: transparent;
+            justify-content: space-between;
+            background-image: none;
+            padding-bottom: 0px;
+        }
+
+        header .header-bottom nav a {
+            border-bottom: none;
+        }
+
+
+    }

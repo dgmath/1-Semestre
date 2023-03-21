@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
-    <link rel="stylesheet" href="./css/Login.css">
+    <title>Cadastro de equipes</title>
+    <link rel="stylesheet" href="./css/equipes.css">
 </head>
-
 <body>
-
-    <!-- header -->
-
+    
     <header>
         <div class="header-top">
 
             <div class="layout-grid alinhamento-between-center">
                 <div class="contatos">
-
                     <a class="phone">
                         <img src="./assets/icons/icone_telefone.svg" alt="icone do telefone de contato">
                         <p>(11) 0900-1010</p>
@@ -49,10 +44,10 @@
                 <!-- visivel apenas no mobile !-->
                 <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/hamburger.svg"
                     alt=" Abre e fecha o menu principal ">
-                 <a href="./index.html">  
-                <img class="logo" src="./assets/images/logotipo-gamer.svg"
-                    alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
-                </a> 
+                <a href="./index.html">
+                    <img class="logo" src="./assets/images/logotipo-gamer.svg"
+                        alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
+                </a>
                 <nav class="menu" id="menu">
                     <a href="./index.html" id="laranja">Início</a>
                     <a href="">Jogadores</a>
@@ -104,30 +99,7 @@
             </div>
         </div>
     </header>
-    <!-- main -->
-    <main>
-        <form class="Login layout-grid" action="">
-            <div class="titulo">
-                <hr>
-                <h1>Login</h1>
-            </div>
-
-            <div class="user">
-                <div class="pessoa">
-                    <img src="./assets/icons/Vector.svg" alt="">
-                    <input type="email" placeholder="Digite seu e-mail:">
-                </div>
-                <div class="senha">
-                    <img src="./assets/icons/Vectorchave.svg" alt="">
-                    <input type="password" placeholder="Digite sua senha:">
-                </div>
-
-
-            </div>
-            <button class="entrar">Logar</button>
-        </form>
-    </main>
-    <!-- footer -->
+    
     <script>
         function mostrarMenu() {
             document.getElementById("menu").classList.toggle("mostrar-menu")
@@ -140,5 +112,4 @@
         }
     </script>
 </body>
-
 </html>
