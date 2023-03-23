@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>Cadastro de equipes</title>
     <link rel="stylesheet" href="./css/equipes.css">
 </head>
+
 <body>
-    
+
     <header>
         <div class="header-top">
 
@@ -99,7 +101,35 @@
             </div>
         </div>
     </header>
-    
+
+    <main>
+            <form class="Login-e layout-grid" action="">
+                <div class="titulo">
+                    <h1>cadastro de equipes</h1>
+                    <hr>
+                </div>
+                    <div class="cadastro">
+                        <div class="id-e">
+                            <input type="text" placeholder="Digite o Id da sua equipe:">
+                        </div>
+                        <div class="nome">
+                            <input type="text" placeholder="Digite o nome da sua equipe:">
+                        </div>
+                        <div class="botao">
+                        <label for="file">Imagem da Equipe</label>
+                        <input class="imagem" type="file">
+
+                        <p>Nenhuma imagem selecionada...</p>
+                        </div>
+                        
+                    <button class="entrar">Cadastro</button>
+
+                    </div>
+ 
+            </form>
+    </main>
+
+
     <script>
         function mostrarMenu() {
             document.getElementById("menu").classList.toggle("mostrar-menu")
@@ -112,4 +142,5 @@
         }
     </script>
 </body>
+
 </html>

@@ -20,8 +20,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* classes genericas */
-.layout-grid{
+.layout-grid {
     width: 90%;
     height: 100%;
     margin: 0 auto;
@@ -29,15 +30,15 @@
 
 }
 
-.mostrar-menu{
+.mostrar-menu {
     left: 0 !important;
 }
 
-.mostrar-usuario{
+.mostrar-usuario {
     right: 0 !important;
 }
 
-body{
+body {
     color: white;
 }
 
@@ -46,7 +47,7 @@ body{
 
 /* HEADER */
 
-header{
+header {
     top: 0;
     position: fixed;
     width: 100vw;
@@ -56,20 +57,22 @@ header{
     background-color: #1B1426;
 }
 
-header .header-top{
+header .header-top {
     display: none;
 }
-header nav{
+
+header nav {
     display: none;
 }
-header .menu-usuarios{
+
+header .menu-usuarios {
     display: flex;
     position: fixed;
     width: 15vw;
     height: 20vh;
-    top: 60px ;
+    top: 60px;
     right: -66px;
-    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
@@ -77,18 +80,18 @@ header .menu-usuarios{
     transition: 0.5s;
 }
 
-header .alinhamento-between-center{
+header .alinhamento-between-center {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .logo{
+header .logo {
     width: 86px;
 }
 
 
-header .header-bottom{
+header .header-bottom {
     height: 60px;
 }
 
@@ -99,7 +102,7 @@ header nav {
     left: -80vw;
     width: 80vw;
     height: calc(100vh - 60px);
-    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7),rgba(27, 20, 38, 0.4));
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(45px);
     display: flex;
     flex-direction: column;
@@ -109,7 +112,7 @@ header nav {
     transition: 0.5s;
 }
 
-header .header-bottom nav > a{
+header .header-bottom nav>a {
     padding: 25px 0;
     font-size: 15px;
     font-family: "inter";
@@ -121,14 +124,16 @@ header .header-bottom nav > a{
     text-decoration: none;
     border-bottom: solid 2px #F9AA01;
 }
-header nav a:first-of-type{
+
+header nav a:first-of-type {
     color: #F9AA01;
 }
-header nav a:last-of-type{
+
+header nav a:last-of-type {
     border-bottom: none;
 }
 
-header .header-bottom nav .midias-sociais{
+header .header-bottom nav .midias-sociais {
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -141,3 +146,189 @@ header .header-bottom nav .midias-sociais{
     width: 100%;
 }
 
+main {
+    margin-top: 60px;
+    width: 100%;
+    height: 1231px;
+    background-size: cover;
+    background-image: url(../assets/images/Banner_cadastro_de_Equipe.png);
+}
+
+main p{
+    font-size: 10px;
+    font-family: "titi-re";
+}
+
+main h1 {
+    font-family: "titi";
+    font-size: 28px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main hr {
+    width: 250px;
+    border: 2px solid #F9AA01;
+}
+
+main form {
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: /* fundo */ linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .039)) padding-box, /* fundo borda */ linear-gradient(90deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+    height: 492px !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .botao{
+    display: flex;
+    flex-direction: row;
+    width: 273px;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="file"]{
+    /* height: 40px;
+    border-radius: 8px;
+    color: #1B1426;
+    font-family: "titi-2";
+    font-size: 13px;
+    width: 112px;
+    background-color: #D9D9D9; */
+    /* outline: none; */
+    display: none;
+}
+
+label {
+        height: 40px;
+    border-radius: 8px;
+    color: #1B1426;
+    font-family: "titi-2";
+    font-size: 13px;
+    width: 112px;
+    background-color: #D9D9D9;
+}
+
+main div.cadastro {
+    display: flex;
+    width: 335px;
+    height: 492px;
+    color: white;
+    /* backdrop-filter: blur(10px); */
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 35px;
+    gap: 30px;
+    /* background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6)); */
+
+
+    border: 2px solid transparent;
+
+    /* background: linear-gradient(to right bottom , rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) content-box, */
+    /* linear-gradient(to right bottom , rgba(239, 239, 239, 0.6),rgba(239, 239, 239, 0.10)) border-box; */
+
+
+    /* border-image-slice: 1; */
+
+}
+
+main .Login-e input {
+    width: 273px;
+    height: 40px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: "titi-re";
+    font-size: 16px;
+    border: none;
+    letter-spacing: 1px solid;
+    outline: none;
+}
+
+main .Login-e ::placeholder {
+    color: white;
+}
+
+main .entrar {
+    width: 273px;
+    height: 40px;
+    background-color: #F9AA01;
+    font-family: "titi-2";
+    font-size: 24px;
+    color: #1B1426;
+    border-radius: 5px;
+    border: none;
+}
+
+
+main .nome {
+    padding-left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 273px;
+    height: 40px;
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.10));
+
+    letter-spacing: 2px;
+    background-color: transparent;
+    /* padding: 2px; */
+
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+
+
+
+
+
+}
+
+main .id-e {
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 273px;
+    height: 40px;
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.10));
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+
+
+}
+
+main .titulo{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 52px;
+    flex-direction: column;
+    }

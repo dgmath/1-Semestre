@@ -14,6 +14,11 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: "quick";
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 /* reset css */
 * {
     margin: 0;
@@ -141,6 +146,8 @@ header .header-bottom nav .midias-sociais{
     width: 100%;
 }
 
+/* *************MAIN************** */
+
 main {
     margin-top: 60px;
  } 
@@ -180,7 +187,7 @@ main .link-main{
     text-align: center;
 }
 
-main h2{
+main .banner-info h2{
     font-size: 40px;
     font-family: "titi";
     color: white;
@@ -205,14 +212,21 @@ main .jogos-populares{
     justify-content: space-evenly;
 }
 
-main .premium{
+/* *********LARANJA*********** */
+
+.flex-wrap{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main .premium{
     background-color: #F9AA01;
     height: 1565px;
+    width: 100%;
+    /* flex-direction: row; */
 }
+
 
 main .premium h1{
     font-size: 18px;
@@ -222,15 +236,167 @@ main .premium h1{
     letter-spacing: 2px;
 }
 
+
+main div.titulo-time{
+    width: 336px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 80px; */
+    position: relative;
+    top: 80px;
+}
+
+main .titulo-time hr{
+    width: 204px;
+    border: 2px solid #1B1426;
+
+}
+
+main article.kiljoy{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 511px;
+}
+
+main article.jinx{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 428px;
+    width: 100%;
+}
+
+main article.kiljoy h2{
+    width: 179px;
+    font-size: 18px;
+    font-family: "titi";
+    text-transform: uppercase;
+    color: white;
+}
+main article.jinx h2{
+    width: 142px;
+    font-size: 18px;
+    font-family: "titi";
+    text-transform: uppercase;
+    color: white;
+}
+
+main article.kiljoy p{
+    width: 176px;
+    font-size: 13px;
+    font-family: "quick";
+    color: white;
+}
+main article.jinx p{
+    width: 162px;
+    font-size: 13px;
+    font-family: "quick";
+    color: white;
+}
+
+main div.controle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    position: absolute;
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(10px);
+    right: -20px;
+    bottom: 60px;
+}
+
+main div.gamer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    position: absolute;
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(10px);
+    left: -10px;
+    bottom: 10px;
+}
+
+/* ***********NOTICIAS*********** */
+
+.layout-interno{
+    height: 213px;
+    display: flex;
+    /* align-items: center;  */
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
 main .noticias{
     height: 3675px;
     background-image: url(../assets/images/backgrund_notícias.png);
+    backdrop-filter: blur(7px);
+    width: 100%;
+    /* position: relative; */
+}
+
+main .titulo-noticias{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 235px;
+    top: 70px;
+    gap: 36px;
+    align-items: center;
+}
+
+main .titulo-noticias h3{
+    font-family: "titi";
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+main .titulo-noticias hr{
+    width: 204px;
+    border: 1px solid #F9AA01;
 }
 
 main .card-estadio{
     width: 335px;
     height: 387px;
+    background-image: linear-gradient(to bottom, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
+    border-radius: 8px;
 }
+
+main .card-estadio p{
+    /* padding-left: 40px; */
+    width: 285px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: "quick";
+    color: white;
+}
+
+main .card-estadio h3{
+    width: 170px;
+    font-size: 24px;
+    font-family: "titi-2";
+    /* text-transform: uppercase; */
+    color: white;
+}
+
 
 
 /* tablets */
