@@ -397,7 +397,227 @@ main .card-estadio h3{
     color: white;
 }
 
+/* *******footer******* */
 
+footer{
+    padding-top: 110px;
+    background-image: url(../assets/images/backgroung_footer.png);
+    width: 100%;
+    height: 1529px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 60px 25px black;
+    background-color: #C6A5E5;
+}
+
+footer .fraselogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+footer .fraselogo p {
+    font-size: 14px;
+    font-family: "quick";
+}
+
+footer .redesfooter {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+footer .linksuteis {
+    margin-top: 70px;
+    font-size: 15px;
+    font-family: "titi";
+}
+
+footer .linksuteis hr {
+    border: #F9AA01 2px solid;
+    width: 112px;
+}
+
+footer .contatos {
+    margin-top: 50px;
+}
+footer .contatos p {
+    font-size: 16px;
+    font-family: "titi-2";
+} 
+
+footer .contatos h1 {
+    font-family: "titi-2";
+    font-size: 16px;
+    color: #F9AA01;
+}
+
+footer .contatos h2 {
+    font-size: 30px;
+    font-family: "titi";
+}
+
+footer .contatos hr {
+    border: #F9AA01 2px solid;
+    width: 112px;
+}
+
+footer .titulocontatos {
+    padding-bottom: 50px;
+}
+
+footer .linksuteis {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer .link {
+    margin-left: 9px;
+    display: flex;
+    gap: 25px;  
+    flex-wrap: wrap;
+}
+
+footer .link a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "titi-2";
+    color: white;
+}
+
+footer .link hr {
+    margin-top: 30px;
+    border: #F9AA01 2px solid;
+    width: 14px;
+}
+
+footer .inicio {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .jogadores {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .noticias {
+    padding-right: 10px;
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .login {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .equipes {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .titulolinks {
+    margin-bottom: 30px;
+}
+
+footer .titulonews {
+    padding-bottom: 40px;
+}
+
+footer .newsletter {
+    padding-top: 90px;
+}
+
+footer .titulonews h2 {
+    
+    font-size: 30px;
+    font-family: "titi";
+
+}
+
+footer .titulonews hr {
+    border: #F9AA01 2px solid;
+    width: 112px;
+}
+
+footer .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    gap: 10px;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    background: 
+       /* fundo */
+       linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+       /* fundo borda */
+       linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    width: 333px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+footer .email input {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "titi-re";
+}
+
+footer .email input::placeholder {
+    color: white;
+}
+
+footer .newsletter a {
+    font-size: 24px;
+    text-decoration: none;
+    width: 333px;
+    height: 40px;
+    color: black;
+    background-color: #F9AA01;
+    font-family: "titi-2";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    /* margin-left: 70px; */
+}
+
+footer .footfinal {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+footer .footfinal p {
+   padding-right: 56px;
+   font-size: 16px;
+   font-family: "titi-re";
+}
 
 /* tablets */
 @media screen and (min-width: 768px){}

@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
-    <link rel="stylesheet" href="./css/Login.css">
+    <title>Jogadores</title>
+    <link rel="stylesheet" href="./css/jogadores.css">
 </head>
-
 <body>
-
-    <!-- header -->
-
+    
     <header>
         <div class="header-top">
 
             <div class="layout-grid alinhamento-between-center">
                 <div class="contatos">
-
                     <a class="phone">
                         <img src="./assets/icons/icone_telefone.svg" alt="icone do telefone de contato">
                         <p>(11) 0900-1010</p>
@@ -49,14 +44,14 @@
                 <!-- visivel apenas no mobile !-->
                 <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/hamburger.svg"
                     alt=" Abre e fecha o menu principal ">
-                 <a href="./index.html">  
-                <img class="logo" src="./assets/images/logotipo-gamer.svg"
-                    alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
-                </a> 
+                <a href="./index.html">
+                    <img class="logo" src="./assets/images/logotipo-gamer.svg"
+                        alt=" Imagem logotipo gamer com um controle de vídeo game ao centro ">
+                </a>
                 <nav class="menu" id="menu">
-                    <a href="./index.html" id="laranja">Início</a>
+                    <a href="index.html" id="laranja">Início</a>
                     <a href="">Jogadores</a>
-                    <a href="">Equipes</a>
+                    <a href="equipes.html">Equipes</a>
                     <a href="">Notícias</a>
                     <!-- visivel apenas no mobile !-->
                     <a class="phone">
@@ -90,7 +85,7 @@
                     alt=" 3 pontinhos, abre e fecha o menu usuarios ">
 
                 <div class="menu-usuarios" id="usuario">
-                    <a href="./login.html">
+                    <a href="login.html">
                         <img src="./assets/icons/contato.svg" alt=" Icone de perfil ">
                     </a>
                     <a href="">
@@ -104,32 +99,13 @@
             </div>
         </div>
     </header>
-    <!-- main -->
+
     <main>
-        <form class="Login layout-grid" action="">
-            <div class="titulo">
-                <hr>
-                <h1>Login</h1>
-            </div>
 
-            <div class="user">
-                <div class="pessoa">
-                    <img src="./assets/icons/Vector.svg" alt="">
-                    <input type="email" placeholder="Digite seu e-mail:">
-                </div>
-                <div class="senha">
-                    <img src="./assets/icons/Vectorchave.svg" alt="">
-                    <input type="password" placeholder="Digite sua senha:">
-                </div>
-
-
-            </div>
-            <button class="entrar">Logar</button>
-        </form>
     </main>
 
-  <!-- FOOTER************** -->
-  <footer>
+<!-- ********FOOTER******** -->
+   <footer>
     <div class="layout-grid">
         <div class="fraselogo">
             <img src="./assets/images/logotipo-gamer.svg" alt="">
@@ -219,21 +195,8 @@
             <p>©Copyright2022-GamerJogosDigitais</p>
         </div>
     </div>
-</footer>
-<!-- *********************** -->
+   </footer>
+<!-- ********************** -->
 
-
-    <script>
-        function mostrarMenu() {
-            document.getElementById("menu").classList.toggle("mostrar-menu")
-        }
-    </script>
-
-    <script>
-        function mostrarUsuario() {
-            document.getElementById("usuario").classList.toggle("mostrar-usuario")
-        }
-    </script>
 </body>
-
 </html>
