@@ -19,6 +19,10 @@
     src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: titi-re;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
 /* reset css */
 * {
     margin: 0;
