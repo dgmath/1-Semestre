@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\bin\Debug\net7.0\Programa de idade em semanas.exe
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\bin\Debug\net7.0\Programa de idade em semanas.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\bin\Debug\net7.0\Programa de idade em semanas.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\bin\Debug\net7.0\Programa de idade em semanas.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\bin\Debug\net7.0\Programa de idade em semanas.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\refint\Programa de idade em semanas.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\Programa de idade em semanas.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de idade em semanas\obj\Debug\net7.0\ref\Programa de idade em semanas.dll

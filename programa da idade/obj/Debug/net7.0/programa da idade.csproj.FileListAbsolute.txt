@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\bin\Debug\net7.0\programa da idade.exe
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\bin\Debug\net7.0\programa da idade.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\bin\Debug\net7.0\programa da idade.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\bin\Debug\net7.0\programa da idade.dll
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\bin\Debug\net7.0\programa da idade.pdb
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.dll
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\refint\programa da idade.dll
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.pdb
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\programa da idade.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\programa da idade\obj\Debug\net7.0\ref\programa da idade.dll
