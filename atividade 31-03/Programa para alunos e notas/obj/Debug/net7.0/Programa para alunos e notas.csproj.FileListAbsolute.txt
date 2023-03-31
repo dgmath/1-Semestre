@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\bin\Debug\net7.0\Programa para alunos e notas.exe
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\bin\Debug\net7.0\Programa para alunos e notas.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\bin\Debug\net7.0\Programa para alunos e notas.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\bin\Debug\net7.0\Programa para alunos e notas.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\bin\Debug\net7.0\Programa para alunos e notas.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\refint\Programa para alunos e notas.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\Programa para alunos e notas.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para alunos e notas\obj\Debug\net7.0\ref\Programa para alunos e notas.dll

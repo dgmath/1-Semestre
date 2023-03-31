@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\bin\Debug\net7.0\Programa Placar futebol.exe
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\bin\Debug\net7.0\Programa Placar futebol.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\bin\Debug\net7.0\Programa Placar futebol.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\bin\Debug\net7.0\Programa Placar futebol.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\bin\Debug\net7.0\Programa Placar futebol.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\refint\Programa Placar futebol.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\Programa Placar futebol.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa Placar futebol\obj\Debug\net7.0\ref\Programa Placar futebol.dll

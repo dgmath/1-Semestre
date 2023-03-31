@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\bin\Debug\net7.0\projeto da quitanda.exe
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\bin\Debug\net7.0\projeto da quitanda.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\bin\Debug\net7.0\projeto da quitanda.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\bin\Debug\net7.0\projeto da quitanda.dll
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\bin\Debug\net7.0\projeto da quitanda.pdb
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.dll
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\refint\projeto da quitanda.dll
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.pdb
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\projeto da quitanda.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\projeto da quitanda\obj\Debug\net7.0\ref\projeto da quitanda.dll

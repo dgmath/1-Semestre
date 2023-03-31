@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\bin\Debug\net7.0\Programa de media.exe
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\bin\Debug\net7.0\Programa de media.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\bin\Debug\net7.0\Programa de media.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\bin\Debug\net7.0\Programa de media.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\bin\Debug\net7.0\Programa de media.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\refint\Programa de media.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\Programa de media.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa de media\obj\Debug\net7.0\ref\Programa de media.dll

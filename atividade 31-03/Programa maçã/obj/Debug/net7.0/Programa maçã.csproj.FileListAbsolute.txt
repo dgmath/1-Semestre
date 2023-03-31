@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\bin\Debug\net7.0\Programa maçã.exe
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\bin\Debug\net7.0\Programa maçã.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\bin\Debug\net7.0\Programa maçã.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\bin\Debug\net7.0\Programa maçã.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\bin\Debug\net7.0\Programa maçã.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\refint\Programa maçã.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\Programa maçã.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa maçã\obj\Debug\net7.0\ref\Programa maçã.dll

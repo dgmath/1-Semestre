@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Programa para alunos e notas/1.0.0": {
+        "runtime": {
+          "Programa para alunos e notas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Programa para alunos e notas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\bin\Debug\net7.0\Programa para orçamentos.exe
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\bin\Debug\net7.0\Programa para orçamentos.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\bin\Debug\net7.0\Programa para orçamentos.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\bin\Debug\net7.0\Programa para orçamentos.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\bin\Debug\net7.0\Programa para orçamentos.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\refint\Programa para orçamentos.dll
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\Programa para orçamentos.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Programa para orçamentos\obj\Debug\net7.0\ref\Programa para orçamentos.dll
