@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\bin\Debug\net7.0\Calculadora-programa.exe
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\bin\Debug\net7.0\Calculadora-programa.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\bin\Debug\net7.0\Calculadora-programa.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\bin\Debug\net7.0\Calculadora-programa.dll
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\bin\Debug\net7.0\Calculadora-programa.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.dll
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\refint\Calculadora-programa.dll
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\Calculadora-programa.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Calculadora-programa\obj\Debug\net7.0\ref\Calculadora-programa.dll

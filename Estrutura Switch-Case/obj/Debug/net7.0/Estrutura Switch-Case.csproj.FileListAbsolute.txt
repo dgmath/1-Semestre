@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\bin\Debug\net7.0\Estrutura Switch-Case.exe
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\bin\Debug\net7.0\Estrutura Switch-Case.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\bin\Debug\net7.0\Estrutura Switch-Case.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\bin\Debug\net7.0\Estrutura Switch-Case.dll
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\bin\Debug\net7.0\Estrutura Switch-Case.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.dll
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\refint\Estrutura Switch-Case.dll
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\Estrutura Switch-Case.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Estrutura Switch-Case\obj\Debug\net7.0\ref\Estrutura Switch-Case.dll
