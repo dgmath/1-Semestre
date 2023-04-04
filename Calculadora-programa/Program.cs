@@ -1,78 +1,5 @@
 ﻿// //calculadora
 
-// //Algoritmo
-
-// //1. informar a operacao
-// //2. informar o primeiro numero
-// //3. infrmar o segundo numero
-// //4. processar os dados
-// //5. exibir resultado
-
-// //entrada
-
-// Console.WriteLine(@$"
-// ---------------------------
-// | Programa de calculadora |
-// |                         |
-// |   Informe a operação    |
-// |                         |
-// |   (+) Soma              |
-// |   (-) Subtração         |
-// |   (*) Multiplicação     |
-// |   (/) Divisão           |
-// |                         |
-// ---------------------------
-// ");
-
-// char operacao = char.Parse(Console.ReadLine());
-
-// Console.WriteLine($"Informe o primeiro número: ");
-// double num1 = double.Parse(Console.ReadLine());
-
-// Console.WriteLine($"Informe o segundo número: ");
-// double num2 = double.Parse(Console.ReadLine());
-
-// double resultado = 0;
-
-// //processamento
-
-// switch (operacao)
-// {
-//     case '+':
-//     resultado = (num1 + num2);
-//     Console.WriteLine($"O resultado da Conta é {resultado}");
-    
-//         break;
-
-//     case '-':
-//         resultado = (num1 - num2);
-//             Console.WriteLine($"O resultado da Conta é {resultado}");
-//         break;
-
-//     case '*':
-//         resultado = (num1 * num2);
-//             Console.WriteLine($"O resultado da Conta é {resultado}");
-//         break;
-
-//     case '/':
-//         resultado = (num1 / num2);
-//             Console.WriteLine($"O resultado da Conta é {resultado}");
-//         break;
-
-//     default:
-//             Console.WriteLine($"Operação invalida, repita o processo corretamente.");
-//         break;
-// }
-
-//Coca cola
-//Pepsi
-//Fanta
-//Monster
-
-//Crie um menu de opções e peça para o usuário escolher uma das opções
-//Dependendo da opção, exiba uma mensagem se gostaria de acrescentar gelo
-//Se sim, exiba uma mensagem que a bebida em questao sera com adicional de gelo 
-//Caso o contrario a bebida é sem gelo adicional.
 Console.BackgroundColor = ConsoleColor.Green;
 Console.WriteLine(@$"
 -----------------------
@@ -166,4 +93,76 @@ switch (bebida)
         break;
 }
 
+// //Algoritmo
 
+// //1. informar a operacao
+// //2. informar o primeiro numero
+// //3. infrmar o segundo numero
+// //4. processar os dados
+// //5. exibir resultado
+
+// //entrada
+
+// Console.WriteLine(@$"
+// ---------------------------
+// | Programa de calculadora |
+// |                         |
+// |   Informe a operação    |
+// |                         |
+// |   (+) Soma              |
+// |   (-) Subtração         |
+// |   (*) Multiplicação     |
+// |   (/) Divisão           |
+// |                         |
+// ---------------------------
+// ");
+
+// char operacao = char.Parse(Console.ReadLine());
+
+// Console.WriteLine($"Informe o primeiro número: ");
+// double num1 = double.Parse(Console.ReadLine());
+
+// Console.WriteLine($"Informe o segundo número: ");
+// double num2 = double.Parse(Console.ReadLine());
+
+// double resultado = 0;
+
+// //processamento
+
+// switch (operacao)
+// {
+//     case '+':
+//     resultado = (num1 + num2);
+//     Console.WriteLine($"O resultado da Conta é {resultado}");
+    
+//         break;
+
+//     case '-':
+//         resultado = (num1 - num2);
+//             Console.WriteLine($"O resultado da Conta é {resultado}");
+//         break;
+
+//     case '*':
+//         resultado = (num1 * num2);
+//             Console.WriteLine($"O resultado da Conta é {resultado}");
+//         break;
+
+//     case '/':
+//         resultado = (num1 / num2);
+//             Console.WriteLine($"O resultado da Conta é {resultado}");
+//         break;
+
+//     default:
+//             Console.WriteLine($"Operação invalida, repita o processo corretamente.");
+//         break;
+// }
+
+//Coca cola
+//Pepsi
+//Fanta
+//Monster
+
+//Crie um menu de opções e peça para o usuário escolher uma das opções
+//Dependendo da opção, exiba uma mensagem se gostaria de acrescentar gelo
+//Se sim, exiba uma mensagem que a bebida em questao sera com adicional de gelo 
+//Caso o contrario a bebida é sem gelo adicional.]
