@@ -101,6 +101,7 @@ int bebida = int.Parse(Console.ReadLine()!);
 switch (bebida)
 {
     case 1:
+    Console.WriteLine($"A bebida escolhida foi Coca cola");
     Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 pra não:");
     int gelo = int.Parse(Console.ReadLine()!);
    
@@ -115,6 +116,7 @@ switch (bebida)
         break;
     
         case 2:
+    Console.WriteLine($"A bebida escolhida foi Pepsi");
     Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 pra não:");
     int gelo2 = int.Parse(Console.ReadLine()!);
    
@@ -129,6 +131,7 @@ switch (bebida)
         break;
 
             case 3:
+    Console.WriteLine($"A bebida escolhida foi Fanta");
     Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 pra não:");
     int gelo3 = int.Parse(Console.ReadLine()!);
    
@@ -143,6 +146,7 @@ switch (bebida)
         break;
 
             case 4:
+    Console.WriteLine($"A bebida escolhida foi Monster");        
     Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 pra não:");
     int gelo4 = int.Parse(Console.ReadLine()!);
    
