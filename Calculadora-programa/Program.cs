@@ -73,14 +73,15 @@
 //Dependendo da opção, exiba uma mensagem se gostaria de acrescentar gelo
 //Se sim, exiba uma mensagem que a bebida em questao sera com adicional de gelo 
 //Caso o contrario a bebida é sem gelo adicional.
-
+Console.BackgroundColor = ConsoleColor.Green;
 Console.WriteLine(@$"
 -----------------------
 |  Seja bem vindo ao  |
-|   Lar das bebidas   |                    
+|   Lar das bebidas   |
 -----------------------
-");
-
+"); Console.ResetColor();
+Console.BackgroundColor = ConsoleColor.White;
+Console.ForegroundColor = ConsoleColor.Red;
 Console.WriteLine(@$"
 ----------------------
 |      Cardápio:     |
@@ -92,9 +93,9 @@ Console.WriteLine(@$"
 |                    |
 |  Informe a bebida  |
 |   de sua escolha   |
-|     em número:     | 
----------------------|
-");
+|     em número:     |
+----------------------
+"); Console.ResetColor();
 int bebida = int.Parse(Console.ReadLine()!);
 
 switch (bebida)
