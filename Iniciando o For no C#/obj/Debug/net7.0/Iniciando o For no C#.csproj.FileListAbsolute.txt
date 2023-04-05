@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\bin\Debug\net7.0\Iniciando o For no C#.exe
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\bin\Debug\net7.0\Iniciando o For no C#.deps.json
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\bin\Debug\net7.0\Iniciando o For no C#.runtimeconfig.json
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\bin\Debug\net7.0\Iniciando o For no C#.dll
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\bin\Debug\net7.0\Iniciando o For no C#.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.csproj.AssemblyReference.cache
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.dll
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\refint\Iniciando o For no C#.dll
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.pdb
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\Iniciando o For no C#.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\1-Semestre\Iniciando o For no C#\obj\Debug\net7.0\ref\Iniciando o For no C#.dll
