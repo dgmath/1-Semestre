@@ -74,3 +74,5 @@ else{
    estadoCerto = true; 
 }
 }while(estadoCerto == false);
+
+Console.WriteLine($"Cadastro realizado com sucesso!");
