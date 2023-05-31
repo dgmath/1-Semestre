@@ -21,10 +21,12 @@ namespace Projeto_Gamer_MVC.Controllers
         }
 
         Context c = new Context();
+
         [Route("Listar")]
         public IActionResult Index()
         {
             ViewBag.Equipe = c.Equipe.ToList();
+            
             return View();
         }
 
@@ -34,19 +36,68 @@ namespace Projeto_Gamer_MVC.Controllers
             return View("Error!");
         }
 
+        [Route("Cadastrar")]
         public IActionResult Cadatrar(IFormCollection form)
         {
             Equipe novaEquipe = new Equipe();
+
             novaEquipe.Nome = form["Nome"].ToString();
-            novaEquipe.Imagem = form["Imagem"].ToString();
+
+
+            if (form.Files.Count > 0)
+            {
+                var file = form.Files[0];
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
+
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            
+            var path = Path.Combine(folder, file.FileName);
+
+            using (var stream = new FileStream(path,FileMode.Create))
+            {
+                file.CopyTo(stream);
+            }
+
+            novaEquipe.Imagem = file.FileName;
+            }
+            else
+            {
+                novaEquipe.Imagem = "padrao.png";
+            }
+
+            //Por que homem é tão idiota???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // novaEquipe.Imagem = form["Imagem"].ToString();
 
             c.Equipe.Add(novaEquipe);
 
             c.SaveChanges();
             
-            ViewBag.Equipe = c.Equipe.ToList();
 
-            return LocalRedirect("~/Equipes/Listar");
+            return LocalRedirect("~/Equipe/Listar");
         }
 
     }
