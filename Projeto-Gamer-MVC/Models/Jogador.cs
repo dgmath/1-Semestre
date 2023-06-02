@@ -13,7 +13,7 @@ namespace Projeto_Gamer_MVC.Models
         public int IdJogador { get; set; }
         public string? Nome { get; set; }
         public string? Email { get; set; }
-        public string? Senhha { get; set; }
+        public string? Senha { get; set; }
 
 
         //referenciando e dizendo qual a classe

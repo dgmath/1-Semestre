@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wNE6idKMkRUFNjEl7GJmlFnTgYAxguh/+anxBFOnRmc=",
+  "Hash": "SLnoDf8Z6vMnHyLeRPTcIa3WhjHe6K+06QJPK3mbRaQ=",
   "Source": "Projeto-Gamer-MVC",
   "BasePath": "_content/Projeto-Gamer-MVC",
   "Mode": "Default",
@@ -85,6 +85,57 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\IMG_2463.PNG",
+      "SourceId": "Projeto-Gamer-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer-MVC",
+      "RelativePath": "img/Equipe/IMG_2463.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipe\\IMG_2463.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\Story Promoção de Churrasco para Restaurantes  (1).png",
+      "SourceId": "Projeto-Gamer-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer-MVC",
+      "RelativePath": "img/Equipe/Story Promoção de Churrasco para Restaurantes  (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipe\\Story Promoção de Churrasco para Restaurantes  (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\coracao.png",
+      "SourceId": "Projeto-Gamer-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer-MVC",
+      "RelativePath": "img/Equipes/coracao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\coracao.png"
+    },
+    {
       "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\diagramaMVC.png",
       "SourceId": "Projeto-Gamer-MVC",
       "SourceType": "Discovered",
@@ -102,12 +153,12 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\diagramaMVC.png"
     },
     {
-      "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\IMG_2231.HEIC",
+      "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\download.png",
       "SourceId": "Projeto-Gamer-MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\",
       "BasePath": "_content/Projeto-Gamer-MVC",
-      "RelativePath": "img/Equipes/IMG_2231.HEIC",
+      "RelativePath": "img/Equipes/download.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Equipes\\IMG_2231.HEIC"
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\download.png"
     },
     {
       "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\IMG_2459.PNG",
@@ -134,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\IMG_2459.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\padrao.png",
+      "SourceId": "Projeto-Gamer-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\",
+      "BasePath": "_content/Projeto-Gamer-MVC",
+      "RelativePath": "img/Equipes/padrao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
     },
     {
       "Identity": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\Story Promoção de Churrasco para Restaurantes  (2).png",

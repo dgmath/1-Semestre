@@ -37,7 +37,7 @@ namespace Projeto_Gamer_MVC.Controllers
         }
 
         [Route("Cadastrar")]
-        public IActionResult Cadatrar(IFormCollection form)
+        public IActionResult Cadastrar(IFormCollection form)
         {
             Equipe novaEquipe = new Equipe();
 

@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\IMG_2231.HEIC",
-      "PackagePath": "staticwebassets\\img\\Equipes\\IMG_2231.HEIC"
+      "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\IMG_2463.PNG",
+      "PackagePath": "staticwebassets\\img\\Equipe\\IMG_2463.PNG"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\Story Promoção de Churrasco para Restaurantes  (1).png",
+      "PackagePath": "staticwebassets\\img\\Equipe\\Story Promoção de Churrasco para Restaurantes  (1).png"
     },
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\IMG_2459.PNG",
@@ -25,8 +29,20 @@
       "PackagePath": "staticwebassets\\img\\Equipes\\Story Promoção de Churrasco para Restaurantes  (2).png"
     },
     {
+      "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\coracao.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\coracao.png"
+    },
+    {
       "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\diagramaMVC.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\diagramaMVC.png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\download.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\padrao.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
     },
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\1-Semestre\\Projeto-Gamer-MVC\\wwwroot\\js\\site.js",
