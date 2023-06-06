@@ -1,9 +1,7 @@
 @model Jogador
 
-
-
 @{
-    ViewData ["Title"] = "Jogador";
+    ViewData["Title"] = "Jogador";
 }
 
 <h1>Tela de Jogadores</h1>
@@ -21,42 +19,48 @@
     <input type="password" name="Email">
 
     <label for="">Equipe</label>
-            
-    <select name="Equipe" id="">
-    <option value="0">Selecione uma opção</option>
+
+    <select required name="Equipe" id="">
+        <option value="0">Selecione uma opção</option>
 
         @foreach (Equipe equipe in ViewBag.Equipe)
         {
-            <option value="">@equipe.Imagem</option>
+            <option value="@equipe.IdEquipe">@equipe.Nome</option>
         }
     </select>
 
-    <button type="submit" >Cadastrar</button>
+    <button type="submit">Cadastrar</button>
 </form>
 
 
 
 
 <table class="table table-striped table-responsive">
-<thead>
-    <th>Id</th>
-    <th>Nome</th>
-    <th>Email</th>    
-    <th>Equipe</th>
-</thead>
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Equipe</th>
+    </thead>
 
-<tbody>
-     
-    @foreach (Jogador jogador in ViewBag.Jogador)
-    {
-        <tr>
-            <td>@jogador.IdJogador</td>
-            <td>@jogador.Nome</td>
-            <td>@jogador.Email</td>
-            <td>
-                <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="" width="50px">
-            </td>
-        </tr>
-    }
-</tbody>
+    <tbody>
+
+        @foreach (Jogador jogador in ViewBag.Jogador)
+        {
+            <tr>
+                <td>@jogador.IdJogador</td>
+                <td>@jogador.Nome</td>
+                <td>@jogador.Email</td>
+                <td>
+                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="" width="50px">
+                </td>
+                <td>
+                    <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador">Excluir</a>
+                </td>
+                <td>
+                    <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

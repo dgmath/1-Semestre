@@ -30,11 +30,6 @@ namespace Projeto_Gamer_MVC.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
 
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
@@ -141,6 +136,11 @@ namespace Projeto_Gamer_MVC.Controllers
 
             return LocalRedirect("~/Equipe/Listar");
 
+        }
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
         }
     }
 }
