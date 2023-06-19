@@ -33,7 +33,7 @@ main .cadastro-equipes::before {
     position: absolute;
     z-index: 0;
     width: 100%;
-    height: 100%;
+    height: 93.5%;
     background-color: rgba(217, 217, 217, .01);
     backdrop-filter: blur(1px);
 }
@@ -159,7 +159,7 @@ main .cadastro-equipes table {
 }
 
 main .cadastro-equipes table td:last-of-type {
-    gap: 10px;
+    gap: 20px;
 }
 
 /* tbody */
@@ -241,7 +241,17 @@ main .cadastro-equipes table td img.yellow-trash {
     width: 15px;
 }
 
+main select option{
+    color: black;
+}
+
 @media screen and (min-width: 992px) {
+
+    main
+    {
+        background-image: url(../images/banner_cadastro_de_equipe.png);
+        background-size: cover;
+    }
 
     main .cadastro-equipes .frm-cad-equipe,
     main .cadastro-equipes table {

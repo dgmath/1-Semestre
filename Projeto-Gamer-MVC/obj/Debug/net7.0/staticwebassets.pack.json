@@ -209,6 +209,10 @@
       "PackagePath": "staticwebassets\\assets\\menu-points.png"
     },
     {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\assets\\pen-solid.svg",
+      "PackagePath": "staticwebassets\\assets\\pen-solid.svg"
+    },
+    {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\assets\\phone-icon.png",
       "PackagePath": "staticwebassets\\assets\\phone-icon.png"
     },
@@ -235,6 +239,14 @@
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\assets\\vector-user.svg",
       "PackagePath": "staticwebassets\\assets\\vector-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\css\\edit-jogador.css",
+      "PackagePath": "staticwebassets\\css\\edit-jogador.css"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\css\\equipe.css",
+      "PackagePath": "staticwebassets\\css\\equipe.css"
     },
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\css\\header-footer.css",
@@ -309,6 +321,10 @@
       "PackagePath": "staticwebassets\\images\\background-login-mobile.png"
     },
     {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\images\\background_edit.png",
+      "PackagePath": "staticwebassets\\images\\background_edit.png"
+    },
+    {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\images\\backgroung_footer.png",
       "PackagePath": "staticwebassets\\images\\backgroung_footer.png"
     },
@@ -323,6 +339,10 @@
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\images\\backgrund_notícias.png",
       "PackagePath": "staticwebassets\\images\\backgrund_notícias.png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\images\\banner_cadastro_de_equipe.png",
+      "PackagePath": "staticwebassets\\images\\banner_cadastro_de_equipe.png"
     },
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\images\\kiljoy.png",
@@ -365,12 +385,32 @@
       "PackagePath": "staticwebassets\\images\\noticia8.png"
     },
     {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\5809830.png",
+      "PackagePath": "staticwebassets\\img\\Equipe\\5809830.png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\Banner_background_1.png",
+      "PackagePath": "staticwebassets\\img\\Equipe\\Banner_background_1.png"
+    },
+    {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\IMG_2463.PNG",
       "PackagePath": "staticwebassets\\img\\Equipe\\IMG_2463.PNG"
     },
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\Story Promoção de Churrasco para Restaurantes  (1).png",
       "PackagePath": "staticwebassets\\img\\Equipe\\Story Promoção de Churrasco para Restaurantes  (1).png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\coracao.png",
+      "PackagePath": "staticwebassets\\img\\Equipe\\coracao.png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\download.png",
+      "PackagePath": "staticwebassets\\img\\Equipe\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipe\\pen-solid.svg",
+      "PackagePath": "staticwebassets\\img\\Equipe\\pen-solid.svg"
     },
     {
       "Id": "C:\\Users\\53025781823\\Desktop\\Projeto-Gamer-MVC\\wwwroot\\img\\Equipes\\IMG_2459.PNG",

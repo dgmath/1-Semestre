@@ -32,9 +32,17 @@
     text-decoration: none;
     color: #000;
     background-color: #F9AA01;
-    border: 1px solid #F9AA01;
+    /* border: 1px solid #F9AA01; */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transition: all 0.4s;
+    
+}
+
+a.btn-sobreliga:hover
+{
+    background-color: #f97901;
+    color: white;
 }
 
 /********************* Jogos *********************/
@@ -222,7 +230,7 @@ section.noticias .card-noticia p {
         margin-top: 0;
         background-image: url(../images/Banner_Liga-Game.png);
         
-        background-size: auto 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-color: transparent;

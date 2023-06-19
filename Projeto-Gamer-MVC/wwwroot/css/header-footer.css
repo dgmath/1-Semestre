@@ -415,7 +415,8 @@ footer #copyright {
 
     header .nav-bkg nav {
         flex-direction: row;
-        justify-content: space-between;
+        /* justify-content: center; */
+        
         /* border: 1px solid white; */
     }
 

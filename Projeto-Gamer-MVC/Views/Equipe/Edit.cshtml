@@ -4,26 +4,65 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>Edição de Equipes</h2>
-@if (ViewBag.Username == null)
-{
-    <li>
-        <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-    </li>
-}
-else
-{
-<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+<link rel="stylesheet" href="~/css/equipe.css">
 
-    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+<main>
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
+    <section class="container-grid cadastro-equipes">
 
-    <label for=""></label>
-    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
 
-    <button type="submit">Atualizar</button>
+        @if (ViewBag.Username == null)
+        {
+            <li>
+                <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+            </li>
+        }
+        else
+        {
+            <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data" class="frm-cad-equipe">
+                <div class="cadequipe-titulo">
+            <h1>Edição de Equipes</h1>
+            <hr>
+            </div>
 
-</form>
-}
+                <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+                <input name="Nome" class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" required
+                    value="@ViewBag.Equipe.Nome">
+                <label class="foto" for="foto-file">
+                    @* Nenhuma imagem selecionada... *@
+                    <input name="Imagem" type="file" id="foto-file" value="@ViewBag.Equipe.Imagem">
+                </label>
+
+                <button type="submit">Atualizar</button>
+
+
+            </form>
+
+
+        }
+    </section>
+
+</main>
+
+
+
+
+
+<!-- <select class="equipeid" id="equipeid">
+                                    <option value="">Selecione uma Equipe</option>
+                                    <option value="x">Equipe X</option>
+                                    <option value="y">Equipe Y</option>
+                                </select> -->
+@* <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+
+<input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+
+<label for="">Nome</label>
+<input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
+
+<label for=""></label>
+<input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+
+<button type="submit">Atualizar</button>
+
+</form> *@
